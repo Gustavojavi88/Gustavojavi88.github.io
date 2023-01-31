@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="./CSS/style-form.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <form name="form" id="form1" action="" method="post" onsubmit="return validateForm()">
+        <label for="">Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre">
+            <span id="span">Rellena el campo Nombre</span> 
+        <label for="">Apellido</label>
+        <input type="text"  name="apellido" placeholder="Ingrese su apellido">
+            <span id="span2">Rellena el campo Apellido</span>
+        <label for="">E-mail</label>
+        <input type="email" name="email" placeholder="Ingrese su E-mail">
+            <span id="span3">Rellena el campo Email</span>
+        <label for="">Mensaje</label>
+            <span id="span4">Rellena el campo Mensaje</span>
+        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje" minlength="50" maxlength="200"></textarea>
+         <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

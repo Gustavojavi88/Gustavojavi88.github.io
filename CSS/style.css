@@ -1,0 +1,71 @@
+
+#name {
+    position: relative;
+    left: 319px;
+    bottom: 209px;
+}
+
+img {
+    width: 239px;
+}
+
+.datos-personales {
+    position: relative;
+    bottom: 160px;
+    background: lightgoldenrodyellow;
+    display: inline-grid;
+    
+}
+
+body {
+    position: absolute;
+    left: 56px;
+}
+
+#info {
+    position: relative;
+    bottom: 274px;
+    left: 318px;
+    font-size: 21px;
+}
+    
+#estudios {
+position: relative;
+bottom: 422px;
+font-size: 21px;
+}
+
+.intereses {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    column-gap: 10px;
+    position: relative;
+    bottom: 412px;
+    left: 319px;
+    font-size: 21px;
+}
+
+#alexander {
+margin-top: -25px;
+font-size: 38px;
+margin-bottom: -4px;
+}
+
+#peter {
+font-size: 76px;
+margin-top: 21px;
+margin-bottom: 29px;
+}
+
+#puesto-aspirado {
+    font-size: 27px;
+    margin-bottom: -4px;
+}
+
+#form {
+    position: relative;
+    bottom: 1003px;
+}
+

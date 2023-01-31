@@ -1,0 +1,16 @@
+body {
+        background-color: wheat;
+}
+
+#form1 {
+    display: grid;
+    row-gap: 16px;
+    background-color: antiquewhite;
+}
+
+#span, #span3, #span2, #span4 {
+    display: none;
+    color: red
+}
+
+ 
